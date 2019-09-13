@@ -149,7 +149,7 @@ input:focus {
 
 .top-layer {
     min-height: 500px;
-    background: #333 url(/images/background2.jpg) no-repeat;
+    background: #333 url(/assets/images/landing.jpg) no-repeat;
     background-size: 2500px auto;
     background-attachment: fixed;
     background-position: top;
