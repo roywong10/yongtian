@@ -3,4 +3,4 @@ RewriteEngine On
 RewriteBase /
 
 RewriteCond %{HTTP_HOST} ^yongtian1688.com.cn [NC]
-RewriteRule ^(.*)$ http://www.yongtian1688.com.cn%{REQUEST_URI}?test=%{HTTPS} [R=302,L]
+RewriteRule ^(.*)$ http://www.yongtian1688.com.cn%{REQUEST_URI} [R=302,L]
