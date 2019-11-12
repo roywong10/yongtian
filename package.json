@@ -3,16 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "mongoose": "^3.7.2",
+    "mongoose": "^5.7.5",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "snyk": "^1.244.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +35,6 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.16.0"
-  }
+  },
+  "snyk": true
 }
