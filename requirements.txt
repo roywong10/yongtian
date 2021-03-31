@@ -22,7 +22,7 @@ mccabe==0.6.1
 pycodestyle==2.5.0
 pycrypto==2.6.1
 pygobject==3.26.1
-pylint==1.9.5
+pylint==2.7.0
 pyxdg==0.25
 SecretStorage==2.3.1
 singledispatch==3.4.0.3
